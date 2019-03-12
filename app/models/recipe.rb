@@ -9,3 +9,7 @@ class Recipe
     self.cook_time = cook_time
     @@all << self
   end 
+  
+  def self.all
+    @@all
+  end
