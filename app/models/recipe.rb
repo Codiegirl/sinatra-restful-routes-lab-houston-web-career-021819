@@ -8,3 +8,4 @@ class Recipe
     self.ingredients = ingredients
     self.cook_time = cook_time
     @@all << self
+  end 
